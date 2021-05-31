@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="jclasses.Student" table="studentsdata">
+   <id name="id" column="id"></id>
+   <property name="firstname" column="firstname"></property>
+   <property name="lastname" column="lastname"></property>
+   <property name="department" column="department"></property>
+   <property name="graduation" column="graduation"></property>
+   <property name="cgpa" column="cgpa"></property>
+   <property name="email" column="email"></property>
+   <property name="phonenumber" column="phonenumber"></property>
+   <property name="skillset" column="skillset"></property>
+   <property name="street" column="street"></property>
+   <property name="district" column="district"></property>
+   <property name="state" column="state"></property>
+   <property name="pincode" column="pincode"></property>
+ </class>
+</hibernate-mapping>

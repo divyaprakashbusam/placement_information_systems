@@ -1,0 +1,78 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;  
+    width:100%;  
+}
+.gradient{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.gradient2{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,9,121,1) 60%, rgba(0,212,255,1) 100%);
+}
+.page-header{
+    font-size:1.25rem;
+    color: antiquewhite; 
+    height:100%;
+}
+
+.feature{
+    color: #fff;
+}
+#more{
+    display: none;
+}
+
+footer{
+   
+    font-size: 1rem;
+    padding: 1rem;
+    background-color:black;
+    text-align:center;
+	color:white;
+	 width:100%;
+}
+.na{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+.na ul 
+ {
+     margin: 0;
+     padding: 1rem;
+     margin-right: 10px;
+     
+ }
+ .na ul li{
+     list-style: none;
+     display: inline-block;
+ }
+ .na ul li a{
+     text-decoration: none;
+     color: aliceblue;
+     padding: 10px;
+ }
+ .na a{
+     color: aliceblue;
+     text-decoration: none;
+     margin-left: 15px;
+ }
+ .na a:hover{
+     color: aliceblue;
+ }
+ .na ul li a:hover{
+    color: aqua;
+ }
+ #head{
+    font-family: 'Montserrat', sans-serif;
+ }
+ #headtext{
+    font-family: 'Montserrat', sans-serif;
+ }

@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" href="hod.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="na">
+        <a href="#" id="head"><h3>Placement Information System</h3></a>
+        <div class="drop">
+            <button class="dbtn">My Account 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdowncontent">
+             <a href="#">Home</a>
+              <a href="studentdetails.html">Add details</a>
+              <a href="viewstudents.jsp">View Students</a>
+              <a href="vieweligiblestudents.jsp">View Eligible Students</a>
+              <a href="updatestudent.jsp">Update Student</a>
+              <a href="login.html">Log out</a>
+            </div>
+          </div> 
+      </nav>
+      <div class="cardclass" style="display: grid;margin-top: 30vh;grid-template-columns: repeat(4, 1fr);padding: 30px;">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Add Students</h5>
+          <p class="card-text">Add the Details of the Students for Placement</p>
+          <a href="studentdetails.html" class="btn btn-primary">Add Students</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Student</h5>
+          <p class="card-text">View the Details of the students</p>
+          <a href="viewstudents.jsp" class="btn btn-primary">Student Details</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Eligible Students</h5>
+          <p class="card-text">View the Details of the Eligible students</p>
+          <a href="vieweligiblestudents.jsp" class="btn btn-primary">Eligible Student Details</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Update</h5>
+          <p class="card-text">Update the Details of the eligible students</p>
+          <a href="updatestudent.jsp" class="btn btn-primary">Update Student Details</a>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

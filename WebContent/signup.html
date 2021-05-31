@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Sign up page</title>
+
+    <link rel="stylesheet" href="signup.css" />
+    <script type="text/javascript" src="signup.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="na">
+      <a href="#"><h3>Placement Information System</h3></a>
+      <ul type="none">
+				<li><a href="welcome.html">Home</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="#">Register</a></li>
+      </ul>
+    </nav>
+    <div class="signup-form">
+      <form  method="POST" action="signup"> 
+        <h2 style="font-weight: bold; color: #333">Sign Up</h2>
+        <div class="form-group">
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First Name"
+                required="required"
+                name="firstname"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last Name"
+                required="required"
+                name="lastname"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="id number"
+            required="required"
+            name="id"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            onblur="ValidateEmail()"
+            class="form-control"
+            id="1"
+            placeholder="Email"
+            required="required"
+            name="email"
+          />
+          <span id="span1"></span>
+        </div>
+        <div class="form-group">
+          <select class="formselect" name="category">
+            <option value="student">Student</option>
+            <option value="hod">HOD</option>
+            <option value="placementofficer">Placement officer</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            onblur="veripass1()"
+            class="form-control"
+            id="2"
+            placeholder="Password"
+            required="required"
+            name="password"
+          />
+          <span id="span2"></span>
+        </div>
+        <div class="form-group">
+          <input
+            type="password"
+            class="form-control"
+            onblur="VerifyPass()"
+            id="3"
+            placeholder="Confirm Password"
+            required="required"
+          />
+          <span id="span3"></span>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-danger btn-lg">Sign Up</button>
+          <a href="login.html">already have an account</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

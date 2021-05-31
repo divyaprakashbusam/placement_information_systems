@@ -1,0 +1,67 @@
+body {
+  background-image: url("back.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.login-form {
+  width: 400px;
+  margin: 30px auto;
+}
+.login-form form {
+  color: #999;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background: #fff;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 30px;
+}
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+.login-form .btn {
+  font-size: 16px;
+  font-weight: bold;
+  background: #3598dc;
+  border: none;
+  min-width: 140px;
+}
+
+.na{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+.na ul 
+ {
+     margin: 0;
+     padding: 1rem;
+     margin-right: 10px;
+     
+ }
+ .na ul li{
+     list-style: none;
+     display: inline-block;
+ }
+ .na ul li a{
+     text-decoration: none;
+     color: aliceblue;
+     padding: 10px;
+ }
+ .na a{
+     color: aliceblue;
+     text-decoration: none;
+     margin-left: 15px;
+ }
+ .na a:hover{
+     color: aliceblue;
+     text-decoration: none;
+ }
+ .na ul li a:hover{
+    color: aqua;
+ }
